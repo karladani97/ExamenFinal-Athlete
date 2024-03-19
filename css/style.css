@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
+
+
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#ec3642;
+	--color-rojo:#ec3642;
+	--fondo-header:#212121;
+	--fondo-footer:#212121;
+	--color-footer:#ccc;
+}
+@font-face{
+	font-family: "Catamaran";
+	src: url("../fonts/Catamaran-VariableFont_wght.ttf") format("Trutype")
+}
+body{
+	font-family: "Catamaran", "Catamaran Black", "Catamaran ExtraBold", "Catamaran ExtraLight", "Catamaran Light", "Catamaran Medium", "Catamaran SemiBold", "Catamaran Thin";
+	background-color: #252525;
+	font-size: 14px;
+}
+header{
+	background-color: var(--fondo-header);
+}
+
+#hero-slides h5{
+	font-size: 20px;
+	border:2px solid #fff;
+	text-align: center;
+	width: 250px;
+	
+}
+#hero-slides h2{
+	font-size: 70px;
+	font-weight: bold;
+	text-align: left
+}
+#hero-slides img{
+	filter: brightness(50%)
+}
+	
+#intro{
+	padding: 5%;
+	background: #161616;
+}
+
+#intro .card-img{
+	filter: brightness(50%);
+	height: 100%;
+	width: 100%;
+}
+#intro .text-bg-dark{
+	height: 100%;
+}
+#intro .btn-outline-light{
+	margin-top: 5%;
+	margin-bottom: 0;
+	
+}
+#products{
+	background: #161616;
+	padding-bottom: 5%;
+}
+#products p{
+	color: var(--color-rojo)
+}
+
+#products s{
+	color: #fff;
+}
+
+#cta{
+	background-image: url("../img/bg-parallax.png");
+	color: #fff;
+	padding: 7%;
+}
+
+#cta h2{
+	font-weight: bold;
+	font-size: 60px;
+}
+
+#cta p{
+	font-size: 25px;
+	font-weight: lighter;
+}
+#cta .btn-outline-light{
+	border-radius: 0px;
+	text-align: center;
+	
+}
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+}
+footer p{
+	margin-bottom: 5px;
+}
+footer span{
+	color: var(--color-rojo);
+}
